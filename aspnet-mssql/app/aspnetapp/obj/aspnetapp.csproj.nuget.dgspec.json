@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "e:\\Github-Repos\\awesome-compose\\aspnet-mssql\\app\\aspnetapp\\aspnetapp.csproj": {}
+  },
+  "projects": {
+    "e:\\Github-Repos\\awesome-compose\\aspnet-mssql\\app\\aspnetapp\\aspnetapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\Github-Repos\\awesome-compose\\aspnet-mssql\\app\\aspnetapp\\aspnetapp.csproj",
+        "projectName": "aspnetapp",
+        "projectPath": "e:\\Github-Repos\\awesome-compose\\aspnet-mssql\\app\\aspnetapp\\aspnetapp.csproj",
+        "packagesPath": "C:\\Users\\Charley\\.nuget\\packages\\",
+        "outputPath": "e:\\Github-Repos\\awesome-compose\\aspnet-mssql\\app\\aspnetapp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Charley\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
